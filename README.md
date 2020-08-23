@@ -1,3 +1,3 @@
 # static-blogsite
-A static website for a blog site for my Internet Web Programming project.
+A static responsive website for a blog site.
 Uses HTML, CSS, JQuery
