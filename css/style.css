@@ -470,6 +470,53 @@ header .menu-toggle{
 
 
 /********* Media Responsiveness *********/
+@media only screen and (max-width: 934px){
+	.content{
+		width: 100%;
+	}
+
+	.content .main-content{
+		width: 100%;
+	}
+
+	.content .sidebar{
+		padding: 20px;
+		width: 100%;
+		height: auto;
+		bottom: 0px;
+	}
+
+	.content .sidebar .section.search{
+		margin-top: 30px;
+	}
+
+	.footer{
+		height: auto;
+	}
+
+	.footer .footer-content{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.footer .footer-content .contact-form{
+		padding-bottom: 90px;
+	}
+
+	.footer .footer-content .contact-form .contact-btn{
+		width: 100%; 
+	}
+
+	.post-slider .post-wrapper .post .post-info {
+		overflow: hidden;
+	}
+
+	.auth-content{
+		width: 70%;
+	}
+
+}
+
 @media only screen and (max-width: 750px){
 	header {
 		position: relative;
@@ -524,4 +571,41 @@ header .menu-toggle{
 	clear: both;
 	}
 
+	.post-slider .next{
+		right: 20px;
+	}
+
+	.post-slider .prev{
+		left: 20px;
+	}
+
+	.auth-content{
+		width: 70%;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+	.content .main-content .post {
+		height: auto;
+	}
+
+	.content .main-content .post .post-image {
+		width: 100%;
+	}
+
+	.content .main-content .post .post-preview{
+		width: 100%;
+	}
+
+	.content .main-content .post .read-more {
+		position: static;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+
+	.auth-content{
+		width: 70%;
+	}
 }
